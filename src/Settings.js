@@ -1,16 +1,6 @@
 import React from "react"
 import Field from "./Field"
-
-function useUser() {
-  const [user, setUser] = React.useState({
-    firstName: "John",
-    lastName: "Doe",
-    email: "email@example.com",
-    id: "123456",
-  })
-
-  return { user, setUser }
-}
+import { useUser } from "./hooks"
 
 function Settings() {
   const { user } = useUser()
