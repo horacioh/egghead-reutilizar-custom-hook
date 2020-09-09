@@ -1,6 +1,6 @@
 import React from "react"
 import Field from "./Field"
-import { useUser } from "./hooks"
+import { useUser } from './hooks'
 
 function Settings() {
   const { user } = useUser()

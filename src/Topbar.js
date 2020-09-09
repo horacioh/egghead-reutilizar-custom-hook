@@ -1,8 +1,8 @@
 import React from "react"
-import { useUser } from "./hooks"
+import { useUser } from './hooks'
 
 export default function Topbar() {
-  const { user } = useUser()
+  const {user} = useUser()
 
   return (
     <div className="flex bg-gray-200 items-center py-4 px-8">
